@@ -17,53 +17,132 @@ body {
   color: white;
 }
 .bg-red {
-  background-color: red;
+  background-color: red !important;
   color: white;
 }
 .bg-green {
-  background-color: green;
+  background-color: green !important;
   color: white;
 }
 .bg-seagreen {
-  background-color: seagreen;
+  background-color: seagreen !important;
   color: white;
 }
 .bg-blue {
-  background-color: blue;
+  background-color: blue !important;
   color: white;
 }
 .bg-pink {
-  background-color: pink;
+  background-color: pink !important;
   color: white;
 }
 .text-white {
-  color: white;
+  color: white !important;
 }
 .text-black {
-  color: black;
+  color: black !important;
 }
 .text-blue {
-  color: blue;
+  color: blue !important;
 }
 .text-red {
-  color: red;
+  color: red !important;
 }
 .text-green {
-  color: green;
+  color: green !important;
 }
 .btn-primary {
-  padding: 10px;
-  background-color: #f7982d;
-  color: white;
-  border-radius: 9999px;
-  font-size: 1.2rem;
+padding: 10px 24px;
+background-color: #f7982d;
+color: white;
+border-radius: 9999px;
+font-size: 1.2rem;
+border: none;
+cursor: pointer;
+transition: opacity 0.2s;
 }
-.btn-2 {
-  padding: 10px;
-  background-color: #287bc3;
-  color: white;
-  border-radius: 9999px;
-  font-size: 1.2rem;
+.btn-bluis {
+padding: 10px 24px;
+background-color: #287bc3;
+color: white;
+border-radius: 9999px;
+font-size: 1.2rem;
+border: none;
+cursor: pointer;
+transition: opacity 0.2s;
+}
+.btn-success {
+padding: 10px 24px;
+background-color: #22c55e;
+color: white;
+border-radius: 8px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+.btn-danger {
+padding: 10px 24px;
+background-color: #ef4444;
+color: white;
+border-radius: 8px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+.btn-dark {
+padding: 10px 24px;
+background-color: #1f2937;
+color: white;
+border-radius: 6px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+.btn-outline {
+padding: 10px 24px;
+background-color: transparent;
+color: #3b82f6;
+border: 2px solid #3b82f6;
+border-radius: 9999px;
+font-size: 1.1rem;
+cursor: pointer;
+}
+.btn-gradient {
+padding: 12px 28px;
+background: linear-gradient(45deg, #8b5cf6, #ec4899);
+color: white;
+border-radius: 12px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+.btn-ghost {
+padding: 10px 24px;
+background-color: #f3f4f6;
+color: #374151;
+border-radius: 8px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+.btn-soft {
+padding: 10px 24px;
+background-color: #dbeafe;
+color: #1e40af;
+border-radius: 8px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+}
+.btn-glass {
+padding: 10px 24px;
+background-color: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+color: white;
+border-radius: 9999px;
+font-size: 1.1rem;
+cursor: pointer;
 }
 .w-100 {
   width: 100px;
@@ -119,3 +198,66 @@ body {
 .h-900 {
   height: 900px;
 }
+.display-block {
+  display: block !important;
+}
+.display-inblock {
+  display: inline-block !important;
+}
+.display-inline {
+  display: inline !important;
+}
+.display-flex {
+  display: flex !important;
+}
+.display-grid {
+  display: grid !important;
+}
+.flex-column {
+  flex-direction: column !important;
+  gap: 10;
+}
+.flex-row {
+  flex-direction: row !important;
+  gap: 10;
+}
+.m-1 { margin: 0.25rem; }
+.m-2 { margin: 0.5rem; }
+.m-3 { margin: 0.75rem; }
+.m-4 { margin: 1rem; }
+.m-5 { margin: 1.25rem; }
+.m-6 { margin: 1.5rem; }
+.m-7 { margin: 1.75rem; }
+.m-8 { margin: 2rem; }
+.m-9 { margin: 2.25rem; }
+.m-10 { margin: 2.5rem; }
+.m-11 { margin: 2.75rem; }
+.m-12 { margin: 3rem; }
+.m-13 { margin: 3.25rem; }
+.m-14 { margin: 3.5rem; }
+.m-15 { margin: 3.75rem; }
+.m-16 { margin: 4rem; }
+.m-17 { margin: 4.25rem; }
+.m-18 { margin: 4.5rem; }
+.m-19 { margin: 4.75rem; }
+.m-20 { margin: 5rem; }
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 0.75rem; }
+.p-4 { padding: 1rem; }
+.p-5 { padding: 1.25rem; }
+.p-6 { padding: 1.5rem; }
+.p-7 { padding: 1.75rem; }
+.p-8 { padding: 2rem; }
+.p-9 { padding: 2.25rem; }
+.p-10 { padding: 2.5rem; }
+.p-11 { padding: 2.75rem; }
+.p-12 { padding: 3rem; }
+.p-13 { padding: 3.25rem; }
+.p-14 { padding: 3.5rem; }
+.p-15 { padding: 3.75rem; }
+.p-16 { padding: 4rem; }
+.p-17 { padding: 4.25rem; }
+.p-18 { padding: 4.5rem; }
+.p-19 { padding: 4.75rem; }
+.p-20 { padding: 5rem; }
