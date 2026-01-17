@@ -2,164 +2,115 @@
 
 /* NanoCSS Hover & Active States */
 .btn-primary:hover,.btn-bluis:hover,.btn-success:hover,.btn-danger:hover,.btn-dark:hover,.btn-pro-1:hover,.btn-pro-3:hover,.btn-pro-5:hover,.btn-pro-9:hover,.btn-pro-10:hover,.btn-pro-12:hover,.btn-pro-17:hover,.btn-pro-19:hover,.btn-pro-20:hover,.btn-pro-23:hover,.btn-pro-24:hover,.btn-pro-26:hover,.btn-pro-27:hover{opacity:.9;transform:translateY(-1px)}.btn-outline:hover{background:#3b82f6;color:#fff}.btn-ghost:hover{background:#e5e7eb}.btn-soft:hover{background:#bfdbfe}.btn-glass:hover{background:rgba(255,255,255,.3)}.btn-premium-1:hover,.btn-premium-15:hover,.btn-premium-29:hover{box-shadow:0 8px 20px rgba(0,0,0,.2);transform:translateY(-2px)}.btn-premium-2:hover{background:#1f2937;border-color:#4b5563}.btn-premium-3:hover{background:#f8fafc;border-color:#cbd5e1}.btn-premium-4:hover{border-bottom-width:2px;transform:translateY(1px)}.btn-premium-8:hover{background:linear-gradient(to right,#4facfe,#00f2fe);border-image:none;color:#fff}.btn-premium-10:hover{box-shadow:inset 0 -2px 0 #e5e7eb;transform:translateY(1px)}.btn-pro-2:hover,.btn-pro-8:hover,.btn-pro-11:hover,.btn-pro-13:hover,.btn-pro-16:hover,.btn-pro-18:hover,.btn-pro-22:hover,.btn-pro-25:hover,.btn-pro-28:hover,.btn-pro-30:hover{background:#f1f5f9;transform:translateY(-1px)}button:active{transform:scale(.97)!important;transition:.1s}
+
+/* 1. Ultra Neon */
 .btn-pro-ultra-neon {
-    background: transparent;
-    color: #fff;
-    border: 2px solid #ff0000;
-    box-shadow: 0 0 10px #ff0000, inset 0 0 8px #ff0000;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 700;
-    transition: 0.4s;
-}
-.btn-pro-ultra-neon:hover {
-    background: #ff0000;
-    box-shadow: 0 0 35px #ff0000, 0 0 60px #ff0000;
-    color: #000;
+    background: transparent !important;
+    color: #fff !important;
+    border: 2px solid #ff0000 !important;
+    box-shadow: 0 0 10px #ff0000, inset 0 0 8px #ff0000 !important;
+    text-transform: uppercase !important;
+    padding: 14px 32px !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    transition: 0.4s !important;
 }
 
+/* 2. Glass Morph */
 .btn-pro-glass-morph {
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-    transition: 0.3s;
-}
-.btn-pro-glass-morph:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(15px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+    padding: 14px 32px !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
 }
 
+/* 3. Cyber Punch */
 .btn-pro-cyber-punch {
-    background: #ffffff;
-    color: #000000;
-    font-weight: 900;
-    clip-path: polygon(0% 0%, 90% 0%, 100% 30%, 100% 100%, 10% 100%, 0% 70%);
-    border: none;
-    transition: 0.2s;
-}
-.btn-pro-cyber-punch:hover {
-    background: #ff0000;
-    color: #fff;
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 0px #550000;
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 14px 35px !important;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 30%, 100% 100%, 10% 100%, 0% 70%) !important;
+    border: none !important;
+    font-weight: 900 !important;
 }
 
+/* 4. Liquid Flow */
 .btn-pro-liquid-flow {
-    background: linear-gradient(-45deg, #ff0000, #ff8000, #ff0080, #ff0000);
-    background-size: 400% 400%;
-    color: #fff;
-    border: none;
-    animation: liquidGradient 5s ease infinite;
-}
-@keyframes liquidGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    background-size: 400% 400% !important;
+    color: #fff !important;
+    padding: 14px 32px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    animation: flowGradient 10s ease infinite !important;
 }
 
+/* 5. Magma Edge */
 .btn-pro-magma-edge {
-    background: #000;
-    color: #ff3333;
-    border: 1px solid #330000;
-    border-bottom: 4px solid #ff0000;
-    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.15);
-    transition: 0.3s;
-}
-.btn-pro-magma-edge:hover {
-    border-bottom-width: 1px;
-    transform: translateY(3px);
-    color: #fff;
+    background: #000 !important;
+    color: #ff3333 !important;
+    padding: 14px 32px !important;
+    border-radius: 6px !important;
+    border: 1px solid #222 !important;
+    box-shadow: 0 4px 0px #660000 !important;
 }
 
+/* 6. Ghost Reveal */
 .btn-pro-ghost-reveal {
-    background: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-.btn-pro-ghost-reveal::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    transition: 0.5s;
-    z-index: -1;
-}
-.btn-pro-ghost-reveal:hover::before {
-    left: 0;
-}
-.btn-pro-ghost-reveal:hover {
-    color: #000;
+    background: transparent !important;
+    color: #ffffff !important;
+    padding: 14px 32px !important;
+    border-radius: 8px !important;
+    border: 2px solid #ffffff !important;
+    position: relative !important;
+    overflow: hidden !important;
 }
 
+/* 7. Titanium Gloss */
 .btn-pro-titanium-gloss {
-    background: linear-gradient(145deg, #444444, #111111);
-    color: #fff;
-    border: 1px solid #555;
-    box-shadow: inset 2px 2px 5px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.5);
-    text-shadow: 1px 1px 2px #000;
-}
-.btn-pro-titanium-gloss:hover {
-    background: linear-gradient(145deg, #111111, #444444);
+    background: linear-gradient(to bottom, #777 0%, #333 50%, #111 51%, #444 100%) !important;
+    color: #fff !important;
+    padding: 14px 32px !important;
+    border-radius: 8px !important;
+    border: 1px solid #000 !important;
 }
 
+/* 8. Stellar Orbit */
 .btn-pro-stellar-orbit {
-    background: #050505;
-    color: #fff;
-    border: 1px solid rgba(255,0,0,0.5);
-    position: relative;
-    overflow: hidden;
-}
-.btn-pro-stellar-orbit::after {
-    content: '';
-    position: absolute;
-    width: 150%;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    transform: rotate(-45deg);
-    top: -100%;
-    left: -100%;
-    transition: 0.7s;
-}
-.btn-pro-stellar-orbit:hover::after {
-    top: 150%;
-    left: 150%;
+    background: #050505 !important;
+    color: #00f2fe !important;
+    padding: 14px 32px !important;
+    border-radius: 5px !important;
+    border: 1px solid #00f2fe !important;
+    position: relative !important;
+    overflow: hidden !important;
 }
 
+/* 9. Phantom Depth */
 .btn-pro-phantom-depth {
-    background: #1a1a1a;
-    color: #fff;
-    border: 1px solid #333;
-    box-shadow: 0 0 0 0 rgba(255,255,255,0);
-    transition: 0.4s;
-}
-.btn-pro-phantom-depth:hover {
-    transform: perspective(500px) translateZ(20px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
-    border-color: #ff0000;
+    background: #222 !important;
+    color: #fff !important;
+    padding: 14px 32px !important;
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
 }
 
+/* 10. Kinetic Shimmer */
 .btn-pro-kinetic-shimmer {
-    background: #000;
-    color: #ff0000;
-    border: 1px solid #ff0000;
-    position: relative;
-    background-image: linear-gradient(120deg, transparent 0%, transparent 40%, rgba(255,0,0,0.3) 50%, transparent 60%, transparent 100%);
-    background-size: 200% 100%;
-    transition: 0.5s;
+    background: #000 !important;
+    color: #fff !important;
+    padding: 14px 32px !important;
+    border-radius: 12px !important;
+    border: 2px solid transparent !important;
+    background-image: linear-gradient(#000, #000), linear-gradient(90deg, #ff0000, #ffff00, #ff0000) !important;
+    background-origin: border-box !important;
+    background-clip: content-box, border-box !important;
 }
-.btn-pro-kinetic-shimmer:hover {
-    background-position: 150% 0%;
-    color: #fff;
-}
+
 
 /* Bsic Property*/
 button:focus-visible {
