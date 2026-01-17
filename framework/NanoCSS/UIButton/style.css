@@ -91,7 +91,7 @@ border-radius: 9999px;
 font-size: 1.1rem;
 cursor: pointer;
 }
-btn-premium-1 {
+.btn-premium-1 {
 padding: 12px 28px;
 background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
 color: white;
